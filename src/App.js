@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import "./App.css"
+import React, { Component } from "react"
+import { Link, BrowserRouter, NavLink, Switch, Route } from "react-router-dom"
+import Calculator from "./calculator"
+import Print from "./Print"
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <Switch>
+            <Route path="/" exact component={Calculator} />
+            <Route path="/print" exact component={Print} />
+          </Switch>
+        </BrowserRouter>
+      </>
+    )
+  }
 }
-
-export default App;
+export default App
