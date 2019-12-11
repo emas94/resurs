@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/resurs/static/css/main.7f6395ea.chunk.css",
-    "main.js": "/resurs/static/js/main.e583b0f7.chunk.js",
-    "main.js.map": "/resurs/static/js/main.e583b0f7.chunk.js.map",
+    "main.js": "/resurs/static/js/main.8c128ace.chunk.js",
+    "main.js.map": "/resurs/static/js/main.8c128ace.chunk.js.map",
     "runtime-main.js": "/resurs/static/js/runtime-main.16e97d79.js",
     "runtime-main.js.map": "/resurs/static/js/runtime-main.16e97d79.js.map",
     "static/js/2.9118d9d1.chunk.js": "/resurs/static/js/2.9118d9d1.chunk.js",
     "static/js/2.9118d9d1.chunk.js.map": "/resurs/static/js/2.9118d9d1.chunk.js.map",
     "index.html": "/resurs/index.html",
-    "precache-manifest.81057c6f2142420f7831ee5333120b07.js": "/resurs/precache-manifest.81057c6f2142420f7831ee5333120b07.js",
+    "precache-manifest.d8f70386fd8a94ae7f2dc0e6cd17313c.js": "/resurs/precache-manifest.d8f70386fd8a94ae7f2dc0e6cd17313c.js",
     "service-worker.js": "/resurs/service-worker.js",
     "static/css/main.7f6395ea.chunk.css.map": "/resurs/static/css/main.7f6395ea.chunk.css.map",
     "static/js/2.9118d9d1.chunk.js.LICENSE": "/resurs/static/js/2.9118d9d1.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.16e97d79.js",
     "static/js/2.9118d9d1.chunk.js",
     "static/css/main.7f6395ea.chunk.css",
-    "static/js/main.e583b0f7.chunk.js"
+    "static/js/main.8c128ace.chunk.js"
   ]
 }
