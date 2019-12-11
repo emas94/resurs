@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06a2d0d12538228b77a30fceea24a8e5",
+    "revision": "9709c70ec01dee00918a2071f901eaf0",
     "url": "/resurs/index.html"
   },
   {
