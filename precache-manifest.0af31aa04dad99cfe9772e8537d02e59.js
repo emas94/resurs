@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7dc913d0ba469fcb7479a2cb6bf3422",
+    "revision": "f18c91d7c6dfd888039e862be967404b",
     "url": "/resurs/index.html"
   },
   {
-    "revision": "7be3b722e86dd4179771",
+    "revision": "bda21652f952e088e796",
     "url": "/resurs/static/css/main.468ee4dd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resurs/static/js/2.025f2e18.chunk.js.LICENSE"
   },
   {
-    "revision": "7be3b722e86dd4179771",
-    "url": "/resurs/static/js/main.29d24213.chunk.js"
+    "revision": "bda21652f952e088e796",
+    "url": "/resurs/static/js/main.9f00e917.chunk.js"
   },
   {
     "revision": "373afaa666f68e05a9c7",
