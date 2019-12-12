@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/resurs/static/css/main.7f6395ea.chunk.css",
-    "main.js": "/resurs/static/js/main.8c128ace.chunk.js",
-    "main.js.map": "/resurs/static/js/main.8c128ace.chunk.js.map",
+    "main.css": "/resurs/static/css/main.468ee4dd.chunk.css",
+    "main.js": "/resurs/static/js/main.29d24213.chunk.js",
+    "main.js.map": "/resurs/static/js/main.29d24213.chunk.js.map",
     "runtime-main.js": "/resurs/static/js/runtime-main.16e97d79.js",
     "runtime-main.js.map": "/resurs/static/js/runtime-main.16e97d79.js.map",
-    "static/js/2.9118d9d1.chunk.js": "/resurs/static/js/2.9118d9d1.chunk.js",
-    "static/js/2.9118d9d1.chunk.js.map": "/resurs/static/js/2.9118d9d1.chunk.js.map",
+    "static/js/2.025f2e18.chunk.js": "/resurs/static/js/2.025f2e18.chunk.js",
+    "static/js/2.025f2e18.chunk.js.map": "/resurs/static/js/2.025f2e18.chunk.js.map",
     "index.html": "/resurs/index.html",
-    "precache-manifest.b541fdc561e0a8c726301c61748fa4e1.js": "/resurs/precache-manifest.b541fdc561e0a8c726301c61748fa4e1.js",
+    "precache-manifest.3b3f6379cde0d4f7db1708f5da8eddf3.js": "/resurs/precache-manifest.3b3f6379cde0d4f7db1708f5da8eddf3.js",
     "service-worker.js": "/resurs/service-worker.js",
-    "static/css/main.7f6395ea.chunk.css.map": "/resurs/static/css/main.7f6395ea.chunk.css.map",
-    "static/js/2.9118d9d1.chunk.js.LICENSE": "/resurs/static/js/2.9118d9d1.chunk.js.LICENSE"
+    "static/css/main.468ee4dd.chunk.css.map": "/resurs/static/css/main.468ee4dd.chunk.css.map",
+    "static/js/2.025f2e18.chunk.js.LICENSE": "/resurs/static/js/2.025f2e18.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.16e97d79.js",
-    "static/js/2.9118d9d1.chunk.js",
-    "static/css/main.7f6395ea.chunk.css",
-    "static/js/main.8c128ace.chunk.js"
+    "static/js/2.025f2e18.chunk.js",
+    "static/css/main.468ee4dd.chunk.css",
+    "static/js/main.29d24213.chunk.js"
   ]
 }
