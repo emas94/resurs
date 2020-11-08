@@ -16,7 +16,7 @@ export default class calculator extends Component {
     days: 0,
     result: 0,
     dateOfResurs: moment(now).format("YYYY-MM-DD"),
-    author: "",
+    author: "Jan Matkowski",
   }
   componentDidMount() {}
   fetchResurs() {
@@ -110,7 +110,7 @@ export default class calculator extends Component {
     let second = (first * 100) / 22000
     let end = 100 - second
     this.setState({
-      result: ` ${Math.floor(end)}%`,
+      result: Math.floor(end),
     })
     if (this.state.days == 0 || this.state.days < 0) {
       alert("proszę wybrać poprawną datę ")
@@ -218,8 +218,7 @@ export default class calculator extends Component {
                   type="number"
                   className="form-control"
                   id="cycle"
-                  placeholder="3"
-                  value={this.state.cycle}
+                  placeholder="Podaj ilość cykli"
                   onChange={this.handleCycle}
                 />
               </div>

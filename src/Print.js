@@ -62,7 +62,7 @@ const Print = (props) => {
           </li>
           <li>Współczynnik bezpieczeństwa : {props.location.state.ratio}</li>
           <li>
-            Resurs - do wykorzystania zostało: {props.location.state.resurs}
+            Resurs - do wykorzystania zostało: {props.location.state.resurs}%
           </li>
           <li>
             Urządzenie{" "}
