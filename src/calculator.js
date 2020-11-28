@@ -1,9 +1,11 @@
 import React, { Component } from "react"
 import { Link, BrowserRouter, NavLink, Switch, Route } from "react-router-dom"
-
 import Print from "./Print"
+import { ToastContainer, toast } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 var moment = require("moment") // require
 let now = new Date()
+
 export default class calculator extends Component {
   state = {
     company: "",
@@ -17,6 +19,7 @@ export default class calculator extends Component {
     result: 0,
     dateOfResurs: moment(now).format("YYYY-MM-DD"),
     author: "Jan Matkowski",
+    show: false,
   }
   componentDidMount() {}
   fetchResurs() {
@@ -39,12 +42,27 @@ export default class calculator extends Component {
     const apiUrl = "http://localhost:8080/add-resurs"
     fetch(apiUrl, requestOptions)
       .then((response) => response.json())
-      .catch((err) => console.log(err))
+      .then((error) => {
+        error
+          ? toast(error.errors.owner.msg)
+          : toast("Resurs został pomyślnie dodany")
+      })
+      .catch((err) =>
+        toast(
+          "Ups coś poszło nie tak, proszę sprawdzić wszystkie dane, albo zadzwonić do Przemka" +
+            " " +
+            err
+        )
+      )
+    this.state.company.length > 2
+      ? toast("Resurs został pomyślnie dodany")
+      : console.log("error")
   }
 
   handleCompany = (e) => {
     this.setState({
       company: e.target.value,
+      show: true,
     })
   }
   handlePrint = () => {
@@ -121,7 +139,6 @@ export default class calculator extends Component {
   }
 
   render() {
-    console.log(this.state)
     return (
       <>
         {" "}
@@ -300,15 +317,17 @@ export default class calculator extends Component {
             </form>
 
             <div className="wynik mt-4">Resurs: {this.state.result}</div>
-            <div
-              className="submit btn btn-danger mt-4"
+            <button
+              className="submit btn btn-success mt-4"
               style={{
                 color: "white",
                 textDecoration: "none",
                 marginRight: 15,
               }}
+              disabled={this.state.show ? false : true}
             >
               <Link
+                onClick={() => this.fetchResurs()}
                 to={{
                   pathname: "/print",
                   state: {
@@ -323,16 +342,14 @@ export default class calculator extends Component {
                     dateOfResurs: this.state.dateOfResurs,
                   },
                 }}
-                onClick={() => this.fetchResurs()}
                 style={{
                   color: "white",
                   textDecoration: "none",
                 }}
               >
-                {" "}
-                Do druku{" "}
+                Dalej
               </Link>
-            </div>
+            </button>
             <div
               className="submit btn btn-primary mt-4"
               style={{
